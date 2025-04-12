@@ -1,0 +1,7 @@
+{
+    "regions": ["syd1"],
+    "cleanUrls": true,
+    "redirects": [
+      { "source": "/old-home", "destination": "/", "permanent": true }
+    ]
+  }
