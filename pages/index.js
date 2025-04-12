@@ -1,8 +1,9 @@
 export default function Home() {
     return (
         <div>
-            <h1>Welcome to my Strata Website</h1>
-            <p>This website helps manage building routes and communication.</p>
+            <h1>Welcome to {process.env.NEXT_PUBLIC_STRATA_BUILDING_NAME}</h1>
+            <p>This website helps owners view notices, documents, and meeting times.</p>
+            <img src="/mainpage.jpg" width="300" alt="Strata building" />
         </div>
     );
     }
